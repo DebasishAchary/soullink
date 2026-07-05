@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304801457069",
+    "project_id": "soullink-8ed63",
+    "storage_bucket": "soullink-8ed63.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304801457069:android:f9e09117affd5ee94ff724",
+        "android_client_info": {
+          "package_name": "com.soullink.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3MrIviykGTfmaEYBrFmssXhsQIC-m7Mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
