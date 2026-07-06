@@ -1,24 +1,18 @@
 import 'package:flutter/material.dart';
 
+import 'router.dart';
+import 'theme.dart';
+
 class SoulLinkApp extends StatelessWidget {
   const SoulLinkApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'SoulLink',
       debugShowCheckedModeBanner: false,
-      home: const Scaffold(
-        body: Center(
-          child: Text(
-            'SoulLink',
-            style: TextStyle(
-              fontSize: 32,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-        ),
-      ),
+      theme: AppTheme.light,
+      routerConfig: appRouter,
     );
   }
 }
