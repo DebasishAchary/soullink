@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../shared/themes/app_theme.dart';
 import 'router.dart';
-import 'theme.dart';
 
 class SoulLinkApp extends StatelessWidget {
   const SoulLinkApp({super.key});
