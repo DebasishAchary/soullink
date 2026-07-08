@@ -9,6 +9,7 @@ import '../widgets/auth_divider.dart';
 import '../widgets/auth_footer.dart';
 import '../widgets/auth_header.dart';
 import '../widgets/auth_layout.dart';
+import '../widgets/password_text_field.dart';
 import '../widgets/social_login_button.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -23,8 +24,7 @@ class LoginScreen extends StatelessWidget {
           AuthHeader(
             image: AppAssets.login,
             title: 'Welcome Back',
-            subtitle:
-                'Continue your beautiful journey together.',
+            subtitle: 'Continue your beautiful journey together.',
           ),
 
           const SizedBox(height: AppSpacing.xl),
@@ -36,10 +36,8 @@ class LoginScreen extends StatelessWidget {
 
           const SizedBox(height: AppSpacing.md),
 
-          const AppTextField(
+          const PasswordTextField(
             hint: 'Password',
-            icon: Icons.lock_outline,
-            obscureText: true,
           ),
 
           const SizedBox(height: AppSpacing.sm),

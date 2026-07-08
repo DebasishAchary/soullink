@@ -9,6 +9,7 @@ import '../widgets/auth_divider.dart';
 import '../widgets/auth_footer.dart';
 import '../widgets/auth_header.dart';
 import '../widgets/auth_layout.dart';
+import '../widgets/password_text_field.dart';
 import '../widgets/social_login_button.dart';
 
 class RegisterScreen extends StatelessWidget {
@@ -42,18 +43,14 @@ class RegisterScreen extends StatelessWidget {
 
           const SizedBox(height: AppSpacing.md),
 
-          const AppTextField(
+          const PasswordTextField(
             hint: 'Password',
-            icon: Icons.lock_outline,
-            obscureText: true,
           ),
 
           const SizedBox(height: AppSpacing.md),
 
-          const AppTextField(
+          const PasswordTextField(
             hint: 'Confirm Password',
-            icon: Icons.lock_outline,
-            obscureText: true,
           ),
 
           const SizedBox(height: AppSpacing.lg),
